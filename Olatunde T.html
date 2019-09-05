@@ -12,36 +12,54 @@
 </head>
 <body>
 	<header id="main-header">
-		<img src="https://res.cloudinary.com/amoladoja/image/upload/c_scale,w_150/v1566514251/ola_moji_300x_lk5gax.jpg" 
+		<div class="details">
+		<img src="https://res.cloudinary.com/amoladoja/image/upload/c_scale,w_200/v1567648352/header_jwxamo.png" 
 		alt="Ola Moji Photo">
+		</div>
 		<div class="about">
 			<h1>Olatunde T. Mojisola</h1>
 			<address>30 Ogunloko Street, Mafoluku, Oshodi, Lagos 100261</address>
-		</div>
-	</header>
-
-	<nav id="main-nav">
-		<div class="container">
-			<ul>
-				<li>Email: <a href="mailto:olatunde.moj@gmail.com">olatunde.moj@gmail.com</a></li>
-				<li>Phone: <a href="#">080-634-20470</a></li>
-				<li>LinkedIn: <a href="#">Olatunde T Mojisola</a></li>
-				<li>Website: <a href="#">dribbble.com/amoLadoja</a> </li>
-				
-			</ul>
-		</div>
-	
-	</nav>
-	<section id="prof">
-			<h3> PROFESSIONAL SUMMARY</h3>
 			<p>
 				Knowledgeable IT Support Analyst with experience in providing technical, creative and advertising 
 				solutions.<br>Possesses relevant professional experience gained over two years of solving computer 
 				system issues, implementing<br>ad campaigns on multiple ad servers and producing dynamic visuals for
-				strategies and proposals
+				proposals and the web
 			</p>
-	</section>	
-		
+			<ul>
+				<li><a href="mailto:olatunde.moj@gmail.com" target="blank">
+					<img src="/png/envelope.png" alt="mail" width="30" height="30"></a></li>
+				<li><a href="https://www.linkedin.com/in/olatunde-timilehin-mojisola-8a2aa1101/" target="blank">
+					<img src="/png/linkedin.png" alt="linkedin" width="30" height="30"></a></li>
+				<li><a href="https://dribbble.com/amoLadoja" target="blank">
+					<img src="/png/dribbble.png" alt="dribble" width="30" height="30"></a> </li>
+				<li><a href="https://twitter.com/amoLadoja" target="blank">
+					<img src="/png/twitter.png" alt="dribble" width="30" height="30"></a> </li>
+			</div>
+		</div>
+	</header>
+
+	<section class="sec">
+			
+			<div id="skill-list">
+					<div class="container">
+						
+						<ul>
+							<li>Presentation design</li>
+							<li>Digital marketing</li>
+							<li>System Troubleshooting</li>
+							<li>Data analysis</li>
+							<li>Web Design (HTML & CSS)</li>
+							<li>Strategy Development</li>
+							<li>Ad Inventory Management</li>
+							<li>Google Analytics</li>
+							<li>Google AdManager</li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</section>
+	
 	<section class="sec">
 		<h3>WORKING HISTORY</h3>
 		
@@ -146,44 +164,14 @@
 
 	<div class="clr"></div>
 
-	<section id="ach">
-			<h3> ACHIEVEMENT</h3>
-					<p>
-					Received a Genesis Media letter of appreciation for creating outstanding 
-					presentations, <br>showing	analytical skills and cooperating in most 
-					challenging projects
-					</p>
-		</section>
-
-	<section class="sec">
-		<h3>SKILLS</h3>
-		<div id="skill-list">
-				<div class="container">
-					<ul>
-						<li>Presentation design</li>
-						<li>Digital marketing</li>
-						<li>System Troubleshooting</li>
-						<li>Data analysis</li>
-						<li>Web Design (HTML & CSS)</li>
-						<li>Strategy Development</li>
-						<li>Ad Inventory Management</li>
-						<li>Google Analytics</li>
-						<li>Google AdManager</li>
-						
-					</ul>
-				</div>
-			
-		</div>
-	</section>
-
-	<footer id="main-foot">
+	<section id="main-foot">
 		<h3>REFEREES</h3>
 		
 			<h4>Goke Olaegbe</h4>
 				<p>
 					Managing Director, Naij.com Media Limited
 					<br>0802 738 8401
-				</p>
+				</p><br>
 				<h4>Tola Odule (Dr.)</h4>
 				<p>
 					Lecturer, Olabisi Onabanjo University
@@ -192,6 +180,22 @@
 
 				<br>
 								
-	</footer>
+	</section>
+	<section id="contact-form">
+		 <h3>CONTACT</h3>
+		 <div id="form-detail">
+        <form action="#" method="get" name="contact" onsubmit="return checkForm()">
+            <span>Name:</span><br>
+            	<input id="contact-name" type="text" name="name" minlength="4" maxlength="20" required><br><br>            	 	
+            <span>Email:</span><br>
+                <input id="contact-email" type="email" name="mail" required><br><br>
+            <span>Title:</span><br>
+                <input id="contact-title" type="text" name="title" required><br><br>
+            <span>Message:</span> <br><br>
+                <textarea id="message" name="message" rows="4" cols="50" minlength="20" maxlength="100" placeholder="Write your message" required></textarea><br>
+            <input type="submit" value="Send" id="button">
+		</form>
+		</div>
+	</section>
 </body>
 </html>
